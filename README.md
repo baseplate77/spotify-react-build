@@ -1,4 +1,10 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## spotify clone with react
+# login with spotify
+<img src="https://github.com/baseplate77/spotify-react-build/blob/master/example/spotify-login.jpg" width="600" height="500" />
+
+## Home page with your spotify account playlist
+<img src="https://github.com/baseplate77/spotify-react-build/blob/master/example/spotify-homescreen.jpg" width="600" height="500" />
 
 ## Available Scripts
 
