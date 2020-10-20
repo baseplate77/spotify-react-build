@@ -1,0 +1,54 @@
+.body {
+  flex: 0.8;
+  height: 100vh;
+  padding: 30px;
+  color: white;
+  overflow-y: overlay;
+  background: linear-gradient(rgb(91, 87, 115), rgb(0, 0, 0, 1));
+}
+.body::-webkit-scrollbar {
+  display: none;
+}
+.body__song {
+  margin: 10px 0;
+}
+
+.body__info {
+  padding: 50px 10px 20px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.body__info > img {
+  height: 20vw;
+  min-height: 200px;
+  max-height: 250px;
+}
+
+.body__infoText {
+  flex: 1;
+  margin-left: 20px;
+}
+.body__infoText > h2 {
+  font-size: 50;
+  margin: 5px 0;
+}
+.body__infoText > p {
+  font-size: 14px;
+}
+.body__icons {
+  display: flex;
+  align-items: center;
+}
+
+.body__icons > .MuiSvgIcon-root {
+  margin-left: 20px;
+}
+.body__playIcons {
+  font-size: 70px !important;
+  margin-top: 10px;
+}
+.body__playIcons:hover {
+  transition: transform 0.1s ease-in;
+  transform: scale(1.08);
+}
